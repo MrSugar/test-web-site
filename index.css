@@ -1,0 +1,65 @@
+.container {
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgb(105, 104, 99);
+    margin: auto;
+    padding: 10px;
+}
+
+.inputWithLabel {
+    display: flex;
+    flex-direction: row;
+    height: 30px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 4px 10px;
+}
+
+.inputWithLabel input {
+    width: calc(100% - 200px);
+    height: 30px;
+    min-width: 300px;
+}
+
+.suggests {
+    margin: 0px 10px;
+}
+
+.companyContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.companyContainer h3 {
+    background-color: #f4f5f9;
+    border: 1px solid #e5e8e9;
+    width: calc(100% - 20px);
+    margin: 0;
+    padding: 10px;
+}
+
+.companyContainer h4 {
+    background-color: WHITE;
+    border: 1px solid #e5e8e9;
+    width: calc(100% - 20px);
+
+    margin: 0;
+    padding: 10px;
+}
+
+#validatorText {
+    color: rgb(247, 110, 110);
+    margin: 0px 10px;
+}
+
+button {
+    border-radius: 5px;
+    background-color: #1ca1c1;
+    border-color: #1ca1c1;
+    margin: 10px 10px;
+    height: 30px;
+    color: white;
+}
